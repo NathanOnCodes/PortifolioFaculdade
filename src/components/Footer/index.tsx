@@ -5,10 +5,12 @@ export const Footer =  () => {
       <FooterRoot.Container style={{
         backgroundColor: "grey",
         height: '75px',
-        textAlign: "center",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
         position: "absolute",
         bottom: "0", 
-
+      
       }}>
         Desenvolvido por Nathan &copy;
       </FooterRoot.Container>

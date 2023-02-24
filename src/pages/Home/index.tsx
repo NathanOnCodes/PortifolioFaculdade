@@ -1,7 +1,7 @@
 import { Footer } from "../../components/Footer"
 import { Header } from "../../components/Header"
 import Grid from "../../types/DataGrid"
-import * as Component from "../../types/MainBody"
+import * as Component from "../../types/HomeStyledComponents/MainBody"
 
 
 export const Home =  () => {
@@ -13,9 +13,9 @@ export const Home =  () => {
             <Component.Container >
                <Component.Content style={{ width: "60%"}}>
                      <Component.HighTypography style={{fontSize: "42px"}}>Desenvolvedor Fullstack Nathan</Component.HighTypography>
-                     <Component.LowTypography>
-                     Olá! seja bem vindo(a) ao meu portfólio. 
-                     Sou desenvolvedora FullStack com conhecimento no ecossistema React e Go. 
+                     <Component.LowTypography style={{ fontSize: "22px"}}>
+                     Olá! seja bem vindo(a) ao meu portfólio. <br />
+                     Sou desenvolvedor FullStack com conhecimento no ecossistema React e Go.  <br />
                      Tenho a missão de impactar vidas com a tecnologia.
                      </Component.LowTypography>
                      
@@ -23,22 +23,25 @@ export const Home =  () => {
                         display: "flex",
                         flexDirection: "column",
                         gap: "15px",
+                        justifyContent: "center",
                         marginTop: "46px",
-                        margin: "auto",
+                     
                         fontSize: "21px"
                      }}>
                         <Component.MidTypography style={{ fontSize: "42px"}}> Acesse minhas redes: </Component.MidTypography>
-                        <Component.BtnSocialNetWork> Instagram </Component.BtnSocialNetWork>
-                        <Component.BtnSocialNetWork> Github </Component.BtnSocialNetWork>
-                        <Component.BtnSocialNetWork> LinkedIn </Component.BtnSocialNetWork>
+                        <Component.BtnSocialNetWork target="_blank"> Instagram  </Component.BtnSocialNetWork>
+                        <Component.BtnSocialNetWork target="_blank"> Github </Component.BtnSocialNetWork>
+                        <Component.BtnSocialNetWork target="_blank"> LinkedIn </Component.BtnSocialNetWork>
+                        <a href={require("../../assets/exercicio-estrutura-de-dados-nathan.pdf" )} download="Currículo PDF" rel="noreferrer" target="_blank"> <Component.BtnSocialNetWork> Meu Currículo </Component.BtnSocialNetWork></a>
                      </Component.LowContainer>
                      
                </Component.Content>
 
                <Component.Content style={{ width: "35%"}}>
-                  <Component.ImgPrincipal  src={"../../assets/foto.jpg"} />
+                     <Component.ImgPrincipal style={{borderRadius: "5%", width: "55%", height: "65%", marginRight: "50%", marginTop: "35px"}} src={"https://raw.githubusercontent.com/NathanCavalcanteFerreira/PortifolioFaculdade/master/src/assets/foto.jpg"} />
                </Component.Content>
-            </Component.Container>
+            
+            </Component.Container>  
 
       
          </Grid>

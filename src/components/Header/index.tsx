@@ -3,7 +3,7 @@ import * as Component from "../../types/HeaderStyles";
 
 
 interface IHeader {
-    style: Object
+    style?: Object
 }
 
 export const Header = (prop: IHeader) => {

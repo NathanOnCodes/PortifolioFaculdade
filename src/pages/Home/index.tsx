@@ -7,12 +7,12 @@ import * as Component from "../../types/HomeStyledComponents/MainBody"
 export const Home =  () => {
     return (
      <>
-      <Grid columns={1} gap="0" style={{ height: "100vh", display: "grid", gridTemplateRows: "1fr 6fr 1fr" }}>
-         <Header style={{color: "white"}} />
+      <Grid columns={1} gap="0" style={{ backgroundColor: "rgb(240, 239, 243)" , height: "100vh", display: "grid", gridTemplateRows: "1fr 6fr 1fr" }}>
+         <Header  />
          <Grid columns={0} gap="0">
             <Component.Container >
                <Component.Content style={{ width: "60%"}}>
-                     <Component.HighTypography style={{fontSize: "42px"}}>Desenvolvedor Fullstack Nathan</Component.HighTypography>
+                     <Component.HighTypography style={{fontSize: "42px", fontWeight: "bold"}}>Desenvolvedor Fullstack Nathan</Component.HighTypography>
                      <Component.LowTypography style={{ fontSize: "22px"}}>
                      Olá! seja bem vindo(a) ao meu portfólio. <br />
                      Sou desenvolvedor FullStack com conhecimento no ecossistema React e Go.  <br />
@@ -23,16 +23,16 @@ export const Home =  () => {
                         display: "flex",
                         flexDirection: "column",
                         gap: "15px",
-                        justifyContent: "center",
+                        alignItems: "center",
                         marginTop: "46px",
                      
                         fontSize: "21px"
                      }}>
-                        <Component.MidTypography style={{ fontSize: "42px"}}> Acesse minhas redes: </Component.MidTypography>
-                        <Component.BtnSocialNetWork target="_blank"> Instagram  </Component.BtnSocialNetWork>
-                        <Component.BtnSocialNetWork target="_blank"> Github </Component.BtnSocialNetWork>
-                        <Component.BtnSocialNetWork target="_blank"> LinkedIn </Component.BtnSocialNetWork>
-                        <a href={require("../../assets/exercicio-estrutura-de-dados-nathan.pdf" )} download="Currículo PDF" rel="noreferrer" target="_blank"> <Component.BtnSocialNetWork> Meu Currículo </Component.BtnSocialNetWork></a>
+                        <Component.MidTypography style={{  fontSize: "42px", marginBottom: "0"}} > Acesse minhas redes: </Component.MidTypography>
+                        <Component.BtnSocialNetWork target="_blank" href="https://www.google.com" > Instagram  </Component.BtnSocialNetWork>
+                        <Component.BtnSocialNetWork target="_blank" href="https://www.google.com"> Github </Component.BtnSocialNetWork>
+                        <Component.BtnSocialNetWork target="_blank" href="https://www.google.com"> LinkedIn </Component.BtnSocialNetWork>
+                        <Component.BtnSocialNetWork target="_blank" href={ require("../../assets/exercicio-estrutura-de-dados-nathan.pdf")} download={"CurriculoPDF"} rel="noreferrer"> Meu Currículo </Component.BtnSocialNetWork>
                      </Component.LowContainer>
                      
                </Component.Content>

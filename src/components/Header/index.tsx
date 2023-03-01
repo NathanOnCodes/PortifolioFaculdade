@@ -1,26 +1,34 @@
-import { NavLink } from "react-router-dom";
 import * as Component from "../../types/HeaderStyles";
+import { Link, useLocation } from "react-router-dom";
 
 
-interface IHeader {
-    style?: Object
-}
+export const Header = () => {
 
-export const Header = (prop: IHeader) => {
+    const location = useLocation();
+    console.log(location, 'location log')
+
+    const setColorLocation = () => {
+        if(location.pathname === '/'){
+
+        }
+    }
 
     return (
-        <Component.Head style={prop.style}>
+        <Component.Head>
             <Component.Content>
+                
                 <Component.Typograph>
-                    <NavLink to={"/"} style={({ isActive }) => ({ color: isActive ? "blue" : "black" })}> Home </NavLink>
+                    <Component.StyledLink to={'/'}>
+                        Home
+                    </Component.StyledLink>
                 </Component.Typograph>
 
                 <Component.Typograph>
-                    <NavLink to={"/about"} style={({ isActive }) => ({ color: isActive ? "blue" : "black" })}> Sobre mim </NavLink>
+                    <Component.StyledLink to={"/about"}> Sobre mim </Component.StyledLink>
                 </Component.Typograph>
 
                 <Component.Typograph>
-                    <NavLink to={"/projects"} style={({ isActive }) => ({ color: isActive ? "blue" : "black" })}> Projetos </NavLink>
+                    <Component.StyledLink to={"/projects"}> Projetos </Component.StyledLink>
                 </Component.Typograph>
             </Component.Content>
         </Component.Head>

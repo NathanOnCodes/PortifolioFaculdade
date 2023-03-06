@@ -11,8 +11,8 @@ export const About = () => {
         <Grid columns={0} gap="0">
           <Component.Container style={{display: "flex", flexDirection: "column" }}>
 
-            <Component.Content style={{display: "flex", justifyContent: "center"}} >
-            <Component.ImgPrincipal alt="imagem vector de um jovem no computador" src={require("../../assets/SvgDeveloperAbout-removebg.png")} />
+            <Component.Content style={{display: "flex", justifyContent: "center", }} >
+            <Component.ImgPrincipal  alt="imagem vector de um jovem no computador" src={require("../../assets/SvgDeveloperAbout-removebg.png")} />
             </Component.Content>
 
             <Component.Content style={{display: "flex", justifyContent: "center", marginBottom: "3em", textAlign: "center"}}>            

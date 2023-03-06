@@ -11,8 +11,8 @@ export const Home = () => {
             <Header />
             <Grid columns={0} gap="16px">
                <Component.Container style={{display: "flex", flexDirection: "column", justifyContent: "center", margin: "auto"}}>
-                  <Component.Content style={{display: "flex", justifyContent: "center"}} >
-                     <Component.ImgPrincipal style={{width: "45%", height: "45%", }} alt="imagem do autor do site" src={require("../../assets/perfil.png")} />
+                  <Component.Content style={{display: "flex", justifyContent: "center", marginTop: "3em"}} >
+                     <Component.ImgPrincipal style={{width: "45%", height: "45%", marginTop: "3.5em" }} alt="imagem do autor do site" src={require("../../assets/perfil.png")} />
                   </Component.Content>
 
 

@@ -1,0 +1,52 @@
+import styled from 'styled-components';
+
+export const Container = styled.div`
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     grid-auto-flow: column;
+     grid-gap: 10px;
+     @media screen and (max-width: 600px){
+        &{
+            grid-auto-flow: row;
+        }
+     }
+`;
+
+export const LowContainer = styled.div``
+
+export const Content = styled.div`
+    width: 100%;
+`;
+
+
+export const HighTypography = styled.h1`
+    font-size: 3rem;
+    @media screen and (max-width: 768px) {
+        font-size: 2rem;
+    }
+`;
+export const MidTypography = styled.h2``;
+export const LowTypography = styled.p`
+    font-size: 2rem;
+    @media screen and (max-width: 768px) {
+        font-size: 1.4rem;
+    }
+`;
+export const BtnSocialNetWork = styled.button` width: 540px; padding: 12px; margin: auto; `;
+export const BtnCv = styled.input`display: none;`
+export const LabelCv = styled.label``
+export const ImgPrincipal = styled.img`
+    transform: translateY(0);
+    @keyframes developMotion{
+        0%{
+        transform: translateY(0px);
+        }
+        50%{
+            transform: translateY(-10px)
+        }
+        100%{
+            transform: translateY(0px);
+        }
+    }
+    animation: developMotion 4s ease-in-out infinite;
+`;

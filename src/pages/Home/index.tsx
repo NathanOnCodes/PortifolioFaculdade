@@ -24,7 +24,7 @@ export const Home = () => {
                         Tenho a missão de impactar vidas com a tecnologia.
                      </Component.LowTypography>
 
-                     <Component.LowContainer style={{ marginBottom: "10em", width: "100%"}}>
+                     <Component.LowContainer style={{ marginBottom: "10em", width: "98%", display: "flex", alignItems: "center"}}>
                         <Component.MidTypography style={{ fontSize: "42px", marginBottom: "0" }} > Acesse minhas redes: </Component.MidTypography>
                         <Component.BtnSocialNetWork target="_blank" href="https://github.com/NathanCavalcanteFerreira" > Instagram  </Component.BtnSocialNetWork>
                         <Component.BtnSocialNetWork target="_blank" href="https://github.com/NathanCavalcanteFerreira"> Github </Component.BtnSocialNetWork>

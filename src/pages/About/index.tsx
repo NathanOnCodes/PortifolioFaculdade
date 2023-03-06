@@ -12,7 +12,7 @@ export const About = () => {
           <Component.Container style={{display: "flex", flexDirection: "column" }}>
 
             <Component.Content style={{display: "flex", justifyContent: "center"}} >
-            <Component.ImgPrincipal src={require("../../assets/SvgDeveloperAbout-removebg.png")} />
+            <Component.ImgPrincipal alt="imagem vector de um jovem no computador" src={require("../../assets/SvgDeveloperAbout-removebg.png")} />
             </Component.Content>
 
             <Component.Content style={{display: "flex", justifyContent: "center", marginBottom: "3em", textAlign: "center"}}>            

@@ -29,7 +29,7 @@ export const LowTypography = styled.p`margin-left: 22px;`;
 export const BtnSocialNetWork = styled.a` 
     display: flex;
     height: 3em;
-    max-width: 600px;
+    width: 100%;
     align-items: center; 
     text-decoration: none; 
     color: black;

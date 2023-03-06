@@ -12,7 +12,7 @@ export const Home = () => {
             <Grid columns={0} gap="16px">
                <Component.Container style={{display: "flex", flexDirection: "column", justifyContent: "center", margin: "auto"}}>
                   <Component.Content style={{display: "flex", justifyContent: "center"}} >
-                     <Component.ImgPrincipal style={{width: "75%", height: "75%", }} src={require("../../assets/SvgDeveloper-removebg.png")} />
+                     <Component.ImgPrincipal style={{width: "45%", height: "45%", }} alt="imagem do autor do site" src={require("../../assets/perfil.png")} />
                   </Component.Content>
 
 
@@ -24,13 +24,13 @@ export const Home = () => {
                         Tenho a missão de impactar vidas com a tecnologia.
                      </Component.LowTypography>
 
-                     <Component.LowContainer style={{ marginBottom: "10em"}}>
+                     <Component.LowContainer style={{ marginBottom: "10em", width: "100%"}}>
                         <Component.MidTypography style={{ fontSize: "42px", marginBottom: "0" }} > Acesse minhas redes: </Component.MidTypography>
-                        <Component.BtnSocialNetWork target="_blank" href="https://www.google.com" > Instagram  </Component.BtnSocialNetWork>
-                        <Component.BtnSocialNetWork target="_blank" href="https://www.google.com"> Github </Component.BtnSocialNetWork>
-                        <Component.BtnSocialNetWork target="_blank" href="https://www.google.com"> LinkedIn </Component.BtnSocialNetWork>
-                        <Component.BtnSocialNetWork target="_blank" href="https://www.google.com"> Artigos no Medium </Component.BtnSocialNetWork>
-                        <Component.BtnSocialNetWork target="_blank" href={require("../../assets/exercicio-estrutura-de-dados-nathan.pdf")} download={"CurriculoPDF"} rel="noreferrer"> Meu Currículo </Component.BtnSocialNetWork>
+                        <Component.BtnSocialNetWork target="_blank" href="https://github.com/NathanCavalcanteFerreira" > Instagram  </Component.BtnSocialNetWork>
+                        <Component.BtnSocialNetWork target="_blank" href="https://github.com/NathanCavalcanteFerreira"> Github </Component.BtnSocialNetWork>
+                        <Component.BtnSocialNetWork target="_blank" href="https://www.linkedin.com/in/eunathancavalcante/"> LinkedIn </Component.BtnSocialNetWork>
+                        <Component.BtnSocialNetWork target="_blank" href="https://medium.com/@eu_nathanferreira"> Artigos no Medium </Component.BtnSocialNetWork>
+                        <Component.BtnSocialNetWork target="_blank" href={require("../../assets/NathanCavalcanteCurriculo.pdf")} download={"CurriculoPDF"} rel="noreferrer"> Meu Currículo </Component.BtnSocialNetWork>
                      </Component.LowContainer>
                   </Component.Content>
 

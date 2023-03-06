@@ -20,9 +20,9 @@ export const Content = styled.div`
 
 
 export const HighTypography = styled.h1`
-    font-size: 3rem;
+    font-size: 2.5rem;
     @media screen and (max-width: 768px) {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 `;
 export const MidTypography = styled.h2``;
@@ -31,6 +31,7 @@ export const LowTypography = styled.p`
     @media screen and (max-width: 768px) {
         font-size: 1.4rem;
     }
+    
 `;
 export const BtnSocialNetWork = styled.button` width: 540px; padding: 12px; margin: auto; `;
 export const BtnCv = styled.input`display: none;`
@@ -49,4 +50,7 @@ export const ImgPrincipal = styled.img`
         }
     }
     animation: developMotion 4s ease-in-out infinite;
+    @media (max-width: 767px) {
+        max-width: 300px;
+    }
 `;

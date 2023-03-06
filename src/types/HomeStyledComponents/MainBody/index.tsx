@@ -18,7 +18,7 @@ export const LowContainer = styled.div`
 `
 
 export const Content = styled.div`
-    margin-top: 5%;
+    
 `;
 
 export const HighTypography = styled.h1``;
@@ -69,4 +69,3 @@ export const ImgPrincipal = styled.img`
 `;
 
 
-//#25292e

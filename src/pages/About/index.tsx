@@ -15,8 +15,8 @@ export const About = () => {
             <Component.ImgPrincipal  alt="imagem vector de um jovem no computador" src={require("../../assets/SvgDeveloperAbout-removebg.png")} />
             </Component.Content>
 
-            <Component.Content style={{display: "flex", justifyContent: "center", marginBottom: "3em", textAlign: "center"}}>            
-              <Component.LowContainer style={{ marginBottom: "60px",  }}>
+            <Component.Content  style={{display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center", flexWrap: "wrap" }}>            
+              
                 <Component.HighTypography>Desenvolvedor Fullstack Nathan</Component.HighTypography>
                 <Component.LowTypography>
                   Olá, meu nome é Nathan, moro na região metropolitana de São Paulo
@@ -25,13 +25,13 @@ export const About = () => {
                   Escrevo artigos no medium, pretendo<br /> criar meu próprio empreendimento social, ajudando jovens em vulnerabilidade social.
                 </Component.LowTypography>
 
-                <Component.LowTypography>
+                <Component.LowTypography style={{marginBottom: "10em"}}>
                   Comecei meus estudo pela ETEC Francisco Morato em 2019, meu primeiro Hello World foi com a linguagem C,<br /> de lá pra cá fiz algumas aplicações um pouco 
                   mais complexas que um Olá mundo, você pode conferir na página<br /> projetos... Hoje estudo com bolsa integral pelo Centro Universitário Senac,
                   e ao longo da minha carreira pretendo<br /> fazer outras especializações.
 
                 </Component.LowTypography>
-              </Component.LowContainer>
+              
             </Component.Content>
 
           </Component.Container>

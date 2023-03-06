@@ -10,15 +10,13 @@ export const Home = () => {
          <Grid columns={1} gap="0" style={{ height: "100vh", display: "grid", gridTemplateRows: "1fr 6fr 1fr" }}>
             <Header />
             <Grid columns={0} gap="16px">
-               <Component.Container>
-                  <Component.Content style={
-                     {
-                        display: "flex",
-                        margin: "auto",
-                        justifyContent: "center",
-                        flexDirection: "column"
-                     }
-                  }>
+               <Component.Container style={{display: "flex", flexDirection: "column", justifyContent: "center", margin: "auto"}}>
+                  <Component.Content style={{display: "flex", justifyContent: "center"}} >
+                     <Component.ImgPrincipal style={{width: "75%", height: "75%", }} src={require("../../assets/SvgDeveloper-removebg.png")} />
+                  </Component.Content>
+
+
+                  <Component.Content style={{display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center"}}>
                      <Component.HighTypography style={{ fontSize: "42px", fontWeight: "bold",}}>Desenvolvedor Fullstack Nathan</Component.HighTypography>
                      <Component.LowTypography style={{ fontSize: "22px"}}>
                         Olá! seja bem vindo(a) ao meu portfólio. <br />
@@ -26,7 +24,7 @@ export const Home = () => {
                         Tenho a missão de impactar vidas com a tecnologia.
                      </Component.LowTypography>
 
-                     <Component.LowContainer>
+                     <Component.LowContainer style={{ marginBottom: "10em"}}>
                         <Component.MidTypography style={{ fontSize: "42px", marginBottom: "0" }} > Acesse minhas redes: </Component.MidTypography>
                         <Component.BtnSocialNetWork target="_blank" href="https://www.google.com" > Instagram  </Component.BtnSocialNetWork>
                         <Component.BtnSocialNetWork target="_blank" href="https://www.google.com"> Github </Component.BtnSocialNetWork>
@@ -36,9 +34,7 @@ export const Home = () => {
                      </Component.LowContainer>
                   </Component.Content>
 
-                  <Component.Content >
-                     <Component.ImgPrincipal style={{width: "100%", height: "80%", marginTop: "35px" }} src={require("../../assets/SvgDeveloper-removebg.png")} />
-                  </Component.Content>
+                  
 
                </Component.Container>
 

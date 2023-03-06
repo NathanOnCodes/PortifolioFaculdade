@@ -13,7 +13,6 @@ export const Typograph = styled.li`
 `;
 
 export const Content = styled.ul`
-    margin-left: 240px;
     gap: 26px;
     display: flex;
     margin-top: 22px;

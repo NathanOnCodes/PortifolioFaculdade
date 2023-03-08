@@ -17,15 +17,15 @@ export const Home = () => {
 
 
                   <Component.Content style={{display: "flex", flexDirection: "column", justifyContent: "center", textAlign: "center"}}>
-                     <Component.HighTypography style={{ fontSize: "42px", fontWeight: "bold",}}>Desenvolvedor Fullstack Nathan</Component.HighTypography>
-                     <Component.LowTypography style={{ fontSize: "22px"}}>
+                     <Component.HighTypography>Desenvolvedor Fullstack Nathan</Component.HighTypography>
+                     <Component.LowTypography>
                         Olá! seja bem vindo(a) ao meu portfólio. <br />
                         Sou desenvolvedor Full Stack com conhecimento no ecossistema React e Go.  <br />
                         Tenho a missão de impactar vidas com a tecnologia.
                      </Component.LowTypography>
 
                      <Component.LowContainer style={{ marginBottom: "10em", width: "98%", display: "flex", alignItems: "center"}}>
-                        <Component.MidTypography style={{ fontSize: "42px", marginBottom: "0" }} > Acesse minhas redes: </Component.MidTypography>
+                        <Component.MidTypography > Acesse minhas redes: </Component.MidTypography>
                         <Component.BtnSocialNetWork target="_blank" href="https://github.com/NathanCavalcanteFerreira" > Instagram  </Component.BtnSocialNetWork>
                         <Component.BtnSocialNetWork target="_blank" href="https://github.com/NathanCavalcanteFerreira"> Github </Component.BtnSocialNetWork>
                         <Component.BtnSocialNetWork target="_blank" href="https://www.linkedin.com/in/eunathancavalcante/"> LinkedIn </Component.BtnSocialNetWork>

@@ -52,8 +52,15 @@ export const PreviouStyled = styled.div`
         border-radius: 3px;
     }
 `
-// export const contianerClass = css`
-//     font-size: 700px;
-// `
+export const TypegraphHigh = styled.h1`
+    font-size: 3em;
+    margin-left: 1.2em;
+    @media (max-width: 767px) {
+       font-size: 2em;
+       margin-left: 0;
+       display: flex;
+       align-items: center;
+       justify-content: center;
 
-//const isContainerClass = contianerClass.getClassName();
+    }
+`;

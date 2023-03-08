@@ -20,16 +20,16 @@ export const Content = styled.div`
 
 
 export const HighTypography = styled.h1`
-    font-size: 2.5rem;
+    font-size: 2.5em;
     @media screen and (max-width: 768px) {
-        font-size: 1.5rem;
+        font-size: 1.6em;
     }
 `;
 export const MidTypography = styled.h2``;
 export const LowTypography = styled.p`
-    font-size: 2rem;
+    font-size: 1.8rem;
     @media screen and (max-width: 768px) {
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
     
 `;

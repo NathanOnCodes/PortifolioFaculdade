@@ -21,9 +21,27 @@ export const Content = styled.div`
     
 `;
 
-export const HighTypography = styled.h1``;
-export const MidTypography = styled.h2``;
-export const LowTypography = styled.p`margin-left: 22px;`;
+export const HighTypography = styled.h1`
+    font-size: 2.5em; 
+    font-weight: bold;
+    @media (max-width: 767px) {
+        font-size: 1.6em;
+    }
+`;
+export const MidTypography = styled.h2`
+    font-size: 2.8em;
+    margin-bottom: 0;
+    @media (max-width: 767px) {
+        font-size: 1.6em;
+    }
+`;
+export const LowTypography = styled.p`
+    font-size: 1.8em;
+    @media (max-width: 767px) {
+        font-size: 1em;
+        align-items: center;
+    }
+`;
 
 
 export const BtnSocialNetWork = styled.a` 

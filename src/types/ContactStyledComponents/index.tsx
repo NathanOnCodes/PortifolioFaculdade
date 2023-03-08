@@ -3,21 +3,34 @@ import styled from 'styled-components';
 
 export const TypographHigh = styled.h1`
     font-size: 52px; text-align: center; margin-bottom: 0; height: 1.5em;
+    @media (max-width: 767px) {
+        font-size: 32px;
+        
+    }
+
 `;
 export const TypographMedium = styled.h2`
     font-size: 36px; text-align: center; margin-bottom: 1em;
+    @media (max-width: 767px) {
+        font-size: 18px;
+        
+    }
 `;
 
 export const Form = styled.form`
     display: flex;
     flex-direction: column;
     gap: 1em;
+    
 `;
 
 export const Input = styled.input`
     width: 36em;
     margin: auto;
     padding: 0.5em;
+    @media (max-width: 767px) {
+        width: 18em;
+    }
 `;
 
 export const InputSubmit = styled.input`
@@ -33,6 +46,9 @@ export const InputSubmit = styled.input`
         background-color: #292929;
         color: white;
     }
+    @media (max-width: 767px) {
+        width: 19em;
+    }
 `;
 
 export const TextArea = styled.textarea`
@@ -40,5 +56,9 @@ export const TextArea = styled.textarea`
      padding: 0.5em;
      margin: auto;
      height: 15em;
+     @media (max-width: 767px) {
+        width: 18em;
+        height: 11em;
+    }
 `;
 

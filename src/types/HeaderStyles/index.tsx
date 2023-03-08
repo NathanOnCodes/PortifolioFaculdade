@@ -11,7 +11,7 @@ export const Typograph = styled.li`
     font-size: 26px;
     font-weight: bold;
     @media (max-width: 767px) {
-        font-size: 20px;
+        font-size: 16px;
         text-align: center;
     }
 
@@ -24,6 +24,7 @@ export const Content = styled.ul`
     list-style: none;
     @media (max-width: 767px) {
        padding: 0;
+       gap: 10px;
        justify-content: center;
     }
 `;

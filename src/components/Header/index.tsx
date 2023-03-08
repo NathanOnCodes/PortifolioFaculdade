@@ -21,6 +21,10 @@ export const Header = () => {
                 <Component.Typograph>
                     <Component.StyledLink to={"/projects"}> Projetos </Component.StyledLink>
                 </Component.Typograph>
+
+                <Component.Typograph>
+                    <Component.StyledLink to={"/contact"}> Contatos </Component.StyledLink>
+                </Component.Typograph>
             </Component.Content>
         </Component.Head>
     )

@@ -20,7 +20,7 @@ export const Home = () => {
                      <Component.HighTypography style={{ fontSize: "42px", fontWeight: "bold",}}>Desenvolvedor Fullstack Nathan</Component.HighTypography>
                      <Component.LowTypography style={{ fontSize: "22px"}}>
                         Olá! seja bem vindo(a) ao meu portfólio. <br />
-                        Sou desenvolvedor FullStack com conhecimento no ecossistema React e Go.  <br />
+                        Sou desenvolvedor Full Stack com conhecimento no ecossistema React e Go.  <br />
                         Tenho a missão de impactar vidas com a tecnologia.
                      </Component.LowTypography>
 

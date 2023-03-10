@@ -61,8 +61,11 @@ export const BtnSocialNetWork = styled.a`
         background-color: #292929;
         color: white;
     }
+    @media (max-width: 767px) {
+        width: 80%;
+    }
     `
-    ;
+;
 
 
 

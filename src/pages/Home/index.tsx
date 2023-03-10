@@ -26,7 +26,7 @@ export const Home = () => {
 
                      <Component.LowContainer style={{ marginBottom: "10em", width: "98%", display: "flex", alignItems: "center"}}>
                         <Component.MidTypography > Acesse minhas redes: </Component.MidTypography>
-                        <Component.BtnSocialNetWork target="_blank" href="https://github.com/NathanCavalcanteFerreira" > Instagram  </Component.BtnSocialNetWork>
+                        <Component.BtnSocialNetWork target="_blank" href="https://instagram.com/eu_nathancavalcante?igshid=ZDdkNTZiNTM=" > Instagram  </Component.BtnSocialNetWork>
                         <Component.BtnSocialNetWork target="_blank" href="https://github.com/NathanCavalcanteFerreira"> Github </Component.BtnSocialNetWork>
                         <Component.BtnSocialNetWork target="_blank" href="https://www.linkedin.com/in/eunathancavalcante/"> LinkedIn </Component.BtnSocialNetWork>
                         <Component.BtnSocialNetWork target="_blank" href="https://medium.com/@eu_nathanferreira"> Artigos no Medium </Component.BtnSocialNetWork>

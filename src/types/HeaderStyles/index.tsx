@@ -11,7 +11,7 @@ export const Typograph = styled.li`
     font-size: 26px;
     font-weight: bold;
     @media (max-width: 767px) {
-        font-size: 16px;
+        font-size: 20.5px;
         text-align: center;
     }
 

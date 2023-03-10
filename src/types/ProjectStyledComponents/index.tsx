@@ -15,6 +15,11 @@ export const PreviouStyled = styled.div`
         padding: 10px;
         text-decoration: blink;
         list-style: none;
+        @media (max-width: 767px) {
+            gap: 14px;
+            padding: 7px;
+        }
+        
     }
     .previousClass{
         font-size: 21px;
@@ -26,6 +31,11 @@ export const PreviouStyled = styled.div`
         align-items: center;
         background-color: black;
         color: white;
+        @media (max-width: 767px) {
+            font-size: 15px;
+            padding: 3px 10px;
+        }
+        
     }
     .nextClass{
         font-size: 21px;
@@ -37,6 +47,10 @@ export const PreviouStyled = styled.div`
         align-items: center;
         background-color: black;
         color: white;
+        @media (max-width: 767px) {
+            font-size: 15px;
+            padding: 3px 10px;
+        }
     }
     .li{
        list-style: none;
@@ -50,6 +64,10 @@ export const PreviouStyled = styled.div`
         background-color: black;
         color: white;
         border-radius: 3px;
+        @media (max-width: 767px) {
+            font-size: 15px;
+            padding: 7px 10px;
+        }
     }
 `
 export const TypegraphHigh = styled.h1`

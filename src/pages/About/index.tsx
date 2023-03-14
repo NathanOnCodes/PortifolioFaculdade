@@ -20,15 +20,15 @@ export const About = () => {
                 <Component.HighTypography>Desenvolvedor Fullstack Nathan</Component.HighTypography>
                 <Component.LowTypography>
                   Olá, meu nome é Nathan, moro na região metropolitana de São Paulo
-                  atualmente atuo com stack de ReactJs,<br /> atuando em uma aplicação estruturada na arquitetura de micro-frontend,
-                  meu objetivo é me tornar um arquiteto<br /> de sistemas no futuro, estruturando minha carreira com ReactJs  e Go.
-                  Escrevo artigos no medium, pretendo<br /> criar meu próprio empreendimento social, ajudando jovens em vulnerabilidade social.
+                  atualmente atuo com stack de ReactJs, atuando em uma aplicação estruturada na arquitetura de micro-frontend,
+                  meu objetivo é me tornar um arquiteto de sistemas no futuro, estruturando minha carreira com ReactJs  e Go.
+                   Escrevo artigos no medium, pretendocriar meu próprio empreendimento social, ajudando jovens em vulnerabilidade social.
                 </Component.LowTypography>
 
                 <Component.LowTypography style={{marginBottom: "10em"}}>
-                  Comecei meus estudo pela ETEC Francisco Morato em 2019, meu primeiro Hello World foi com a linguagem C,<br /> de lá pra cá fiz algumas aplicações um pouco 
-                  mais complexas que um Olá mundo, você pode conferir na página<br /> projetos... Hoje estudo com bolsa integral pelo Centro Universitário Senac,
-                  e ao longo da minha carreira pretendo<br /> fazer outras especializações.
+                  Comecei meus estudo pela ETEC Francisco Morato em 2019, meu primeiro Hello World foi com a linguagem C, de lá pra cá fiz algumas aplicações um pouco 
+                  mais complexas que um Olá mundo, você pode conferir na página projetos... Hoje estudo com bolsa integral pelo Centro Universitário Senac,
+                  e ao longo da minha carreira pretendo fazer outras especializações.
 
                 </Component.LowTypography>
               

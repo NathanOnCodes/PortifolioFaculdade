@@ -21,12 +21,17 @@ export const Content = styled.div`
 
 export const HighTypography = styled.h1`
     font-size: 2.5em;
+    padding: 0 3em;
     @media screen and (max-width: 768px) {
         font-size: 1.6em;
     }
 `;
 export const MidTypography = styled.h2``;
 export const LowTypography = styled.p`
+    width: 20%
+    text-align: center;
+    padding: 0 3em;
+    
     font-size: 1.8rem;
     @media screen and (max-width: 768px) {
         font-size: 1rem;

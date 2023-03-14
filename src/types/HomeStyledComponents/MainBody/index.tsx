@@ -36,7 +36,8 @@ export const MidTypography = styled.h2`
 export const LowTypography = styled.p`
     font-size: 1.8em;
     @media (max-width: 767px) {
-        font-size: 0.8em;
+        font-size: 1em;
+        padding: 0 2em;
         align-items: center;
     }
 `;
@@ -72,6 +73,7 @@ export const BtnSocialNetWork = styled.a`
 export const BtnCv = styled.input`display: none;`
 export const LabelCv = styled.label``
 export const ImgPrincipal = styled.img`
+   margin-top: 3.5em;
    transform: translateY(0);
     @keyframes developMotion{
         0%{
@@ -85,6 +87,9 @@ export const ImgPrincipal = styled.img`
         }
     }
     animation: developMotion 4s ease-in-out infinite;
+    @media (max-width: 767px) {
+        margin-top: 0.2em;
+    }
 `;
 
 

@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 
 export const TypographHigh = styled.h1`
-    font-size: 52px; text-align: center; margin-bottom: 0; height: 1.5em;
+    font-size: 52px; text-align: center; margin-bottom: 0;
     @media (max-width: 767px) {
         font-size: 32px;
         
@@ -42,6 +42,7 @@ export const InputSubmit = styled.input`
     padding: 0.5em;
     font-size: 1em;
     font-weight: bold;
+    margin-bottom: 4em;
     &:hover {
         background-color: #292929;
         color: white;

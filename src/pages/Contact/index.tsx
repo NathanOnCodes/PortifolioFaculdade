@@ -77,8 +77,9 @@ export const Contact: React.FC = () => {
                     />
 
                 </Component.Form>
+                <Footer />
             </Grid>
-            <Footer />
+            
         </>
     )
 }

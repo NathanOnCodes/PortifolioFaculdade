@@ -14,8 +14,9 @@ export const Projects: React.FC = () => {
          <Component.TypegraphHigh>Projetos: </Component.TypegraphHigh >
           
                <Paginate ItemsPerPage={5}  />  
+        <Footer  />
       </Grid>
-      <Footer  />
+      
     </>
   )
 }

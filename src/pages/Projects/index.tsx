@@ -14,7 +14,7 @@ export const Projects: React.FC = () => {
          <Component.TypegraphHigh>Projetos: </Component.TypegraphHigh >
           
                <Paginate ItemsPerPage={5}  />  
-        <Footer  />
+        <Footer style={{position: "fixed", bottom: "0"}} />
       </Grid>
       
     </>

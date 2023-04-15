@@ -1,8 +1,12 @@
 import * as FooterRoot from "../../types/FooterStyles"
 
-export const Footer =  () => {
+interface IFooterProps {
+  style?: Object
+}
+
+export const Footer =  ({style} : IFooterProps) => {
     return (
-      <FooterRoot.Container>
+      <FooterRoot.Container style={style}>
         Desenvolvido por Nathan &copy;
       </FooterRoot.Container>
     )
